@@ -472,9 +472,9 @@ document
         country: document.getElementById("country").value,
         maritalStatus: document.getElementById("maritalStatus").value,
         occupation: document.getElementById("occupation").value,
-        idType: document.getElementById("idType").value,
-        idNumber: document.getElementById("idNumber").value,
-        ssn: document.getElementById("ssn").value,
+        // idType: document.getElementById("idType").value,
+        // idNumber: document.getElementById("idNumber").value,
+        // ssn: document.getElementById("ssn").value,
       };
 
       const response = await fetch(
